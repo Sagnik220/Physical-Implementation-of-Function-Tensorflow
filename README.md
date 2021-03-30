@@ -9,14 +9,5 @@ While zfit in the core is focused to provide the basic building blocks, it misse
 
 This project aims at implementing a more difficult lineshape, namely the faddeeva or voigt profile. This can either be done by creating a C++ kernel for CPU as well as GPU or by implementing it using the TensorFlow library.
 
-## Task ideas
-Implement a version of the faddeeva function or similar.
-Measure the performance by profiling the code and try to find bottlenecks.
-Since TensorFlow can also be run natively on the GPU, this will be profiled as well.
-As TensorFlow provides automatic gradients, a custom, improved gradient may be integrated.
-The function is finally wrapped inside a PDF and, together with tests and docs, added to the zfit library.
-Expected results
-Working faddeeva function, implemented using the low-level functionality of TensorFLow (which is Numpy-like).
-
 ## Requirements
 Python, Numpy, (maybe C++ and CUDA)

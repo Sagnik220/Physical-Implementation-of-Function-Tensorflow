@@ -10,7 +10,7 @@ While zfit in the core is focused to provide the basic building blocks, it misse
 This project aims at implementing a more difficult lineshape, namely the faddeeva or voigt profile. This can either be done by creating a C++ kernel for CPU as well as GPU or by implementing it using the TensorFlow library.
 
 ## Requirements
-Python, Numpy, (maybe C++ and CUDA)
+Python, Numpy, C++ and CUDA
 
 ## Examples:
 
